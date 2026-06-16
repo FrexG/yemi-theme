@@ -6,7 +6,7 @@
     "activityBarBadge.background": "#f1b4b4",
     "sideBarTitle.foreground": "#1a1b26",
     "// Jupyter Notebook Background Alignment": "",
-    "notebook.cellEditorBackground": "#1a1b26",
+    "notebook.cellEditorBackground": "#151516",
     "// Remove vibrant bracket pair colors (make them uniform white)": "",
     "editorBracketHighlight.foreground1": "#ffffff",
     "editorBracketHighlight.foreground2": "#ffffff",

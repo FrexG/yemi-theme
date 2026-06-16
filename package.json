@@ -1,0 +1,27 @@
+{
+  "name": "yemi",
+  "publisher": "frexg",
+  "displayName": "Yemi",
+  "description": "Minimalist Vscode theme inspired by Alabaster and Tokyo Night themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yemi Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yemi-dark-theme.json"
+      },
+      {
+        "label": "Yemi Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/yemi-light-theme.json"
+      }
+    ]
+  }
+}

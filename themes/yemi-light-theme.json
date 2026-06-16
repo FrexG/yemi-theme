@@ -1,0 +1,215 @@
+{
+  "name": "Yemi Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#f7f7f7",
+    "editor.foreground": "#000000",
+    "activityBarBadge.background": "#f1b4b4",
+    "sideBarTitle.foreground": "#f7f7f7",
+    "// Jupyter Notebook Background Alignment": "",
+    "notebook.cellEditorBackground": "#f7f7f7",
+    "editorBracketHighlight.foreground1": "#000000",
+    "editorBracketHighlight.foreground2": "#000000",
+    "editorBracketHighlight.foreground3": "#000000",
+    "editorBracketHighlight.foreground4": "#000000",
+    "editorBracketHighlight.foreground5": "#000000",
+    "editorBracketHighlight.foreground6": "#000000",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#e0506c",
+    "editorIndentGuide.background1": "#00000000",
+    "editorIndentGuide.activeBackground1": "#00000000",
+    "// Activity Bar (Far left icon strip)": "",
+    "activityBar.background": "#f7f7f7",
+    "activityBar.foreground": "#000000",
+    "activityBar.inactiveForeground": "#888888",
+    "// Side Bar (File Explorer, Extensions list, etc.)": "",
+    "sideBar.background": "#f0f0f0",
+    "sideBar.foreground": "#000000",
+    "sideBar.border": "#e0e0e0",
+    "sideBarSectionHeader.background": "#f7f7f7",
+    "sideBarSectionHeader.foreground": "#000000",
+    "// File Explorer Tree Rows": "",
+    "list.hoverBackground": "#e5e5e5",
+    "list.activeSelectionBackground": "#dadada",
+    "list.activeSelectionForeground": "#000000",
+    "list.inactiveSelectionBackground": "#e0e0e0",
+    "// Dropdown Menus & Context Menus": "",
+    "menu.background": "#f7f7f7",
+    "menu.foreground": "#000000",
+    "menu.selectionBackground": "#dadada",
+    "menu.selectionForeground": "#000000",
+    "menu.separatorBackground": "#e0e0e0"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#aa8800"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "string constant.other.placeholder"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": [
+        "constant.other.color"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": [
+        "invalid",
+        "invalid.illegal"
+      ],
+      "settings": {
+        "foreground": "#007070"
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        "punctuation.definition.tag",
+        "punctuation.separator.inheritance.php",
+        "punctuation.definition.tag.html",
+        "punctuation.definition.tag.begin.html",
+        "punctuation.definition.tag.end.html",
+        "punctuation.section.embedded",
+        "keyword.other.template",
+        "keyword.other.substitution"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": [
+        "entity.name.tag",
+        "meta.tag.sgml",
+        "markup.deleted.git_gutter"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Function, Special Method",
+      "scope": [
+        "entity.name.function",
+        "meta.function-call",
+        "variable.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#007777"
+      }
+    },
+    {
+      "name": "Block Level Variables",
+      "scope": [
+        "meta.block variable.other"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Other Variable, String Link",
+      "scope": [
+        "support.other.variable",
+        "string.other.link"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant",
+        "constant.character",
+        "constant.escape",
+        "variable.parameter",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#d03550"
+      }
+    },
+    {
+      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "scope": [
+        "string",
+        "constant.other.symbol",
+        "constant.other.key",
+        "entity.other.inherited-class",
+        "markup.heading",
+        "markup.inserted.git_gutter",
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+      ],
+      "settings": {
+        "foreground": "#498000"
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class",
+        "support.other.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": [
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#000000"
+      }
+    }
+  ]
+}

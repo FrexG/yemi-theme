@@ -23,5 +23,9 @@
         "path": "./themes/yemi-light-theme.json"
       }
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frexg/yemi-theme.git"
   }
 }

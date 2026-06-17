@@ -1,6 +1,6 @@
 # Yemi Theme
 
-A premium, highly disciplined workspace color theme blending the extreme typographic clarity of **Alabaster** with the elegant, cool undertones of **Tokyo Night**. Available in both Dark and Light variants.
+A VScode color theme blending the extreme typographic clarity of **Alabaster** with the elegant, cool undertones of **Tokyo Night**. Available in both Dark and Light variants.
 
 ![Yemi Theme Preview](images/preview_dark.png)
 

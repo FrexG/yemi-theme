@@ -1,23 +1,25 @@
 # Yemi Theme
 
-A VScode color theme blending the extreme typographic clarity of **Alabaster** with the elegant, cool undertones of **Tokyo Night**. Available in both Dark and Light variants.
+A minimalist color theme blending the typographic layout of **Alabaster** with the cool palette of **Tokyo Night**. Available for both VS Code and Vim/Neovim.
 
-![Yemi Theme Preview](images/preview_dark.png)
+![Yemi Theme Preview (Dark)](images/preview_dark.png)
+![Yemi Theme Preview (Light)](images/preview_light.png)
 
-## 🎨 The Philosophy
+## 🎨 Design Approach
 
-Most modern color themes distract you with a rainbow of colors for every brackets, keyword, and operator. **Yemi Theme** strips away the noise to supercharge your deep focus. 
+Instead of assigning distinct colors to every token, **Yemi** relies on typography and constraint to keep code clean and readable.
 
-* **Monochromatic Logic:** Variables, punctuation, and structural logic are kept clean, crisp, and neutral.
-* **Typographic Separation:** Keywords (`if`, `for`, `return`, `class`) are styled with fluid, intentional italics to cleanly break up control flow without altering syntax colors.
-* **Tokyo Night Accents:** Neon tones are used exceptionally sparingly—only targeting strings, numbers, and comments to make them instantly scannable.
+* **Monochromatic Base:** Variables, punctuation, and structures are kept neutral (white/black) to reduce visual noise.
+* **Typographic Contrast:** Keywords (`if`, `for`, `return`) use italics rather than a new color to differentiate control flow.
+* **Disciplined Accents:** Muted Tokyo Night tones are applied strictly to strings, numbers, and comments for quick scanning.
+* **No Clutter:** Rainbow brackets and vertical indentation scope lines are disabled by default.
 
 ---
 
-## 🌓 Variants Included
+## 🌓 Variants
 
-### 1. Yemi Dark
-A stealthy, soothing canvas engineered for long nights. Features an ultra-dark background paired with glowing, muted Tokyo Night accents.
+### Yemi Dark
+An soft-gray dark background (`#24292E`) paired with low-intensity neon accents.
 
-### 2. Yemi Light
-A premium, high-legibility layout built on a soft, creamy off-white backdrop. Perfectly balancing high contrast with eye comfort.
+### Yemi Light
+A soft, cream-gray background (`#f7f7f7`) balancing high legibility with eye comfort.

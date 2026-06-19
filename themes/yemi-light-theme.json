@@ -43,8 +43,7 @@
     {
       "name": "Comment",
       "scope": [
-        "comment",
-        "punctuation.definition.comment"
+        "comment"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -52,19 +51,16 @@
       }
     },
     {
-      "name": "Variables",
-      "scope": [
-        "variable",
-        "string constant.other.placeholder"
-      ],
+      "name": "Punctuation",
+      "scope": "punctuation",
       "settings": {
-        "foreground": "#000000"
+        "foreground": "#777777"
       }
     },
     {
-      "name": "Colors",
+      "name": "Variables",
       "scope": [
-        "constant.other.color"
+        "variable"
       ],
       "settings": {
         "foreground": "#000000"
@@ -81,134 +77,49 @@
       }
     },
     {
-      "name": "Keyword, Storage",
+      "name": "Keyword",
       "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier"
+        "keyword"
       ],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Operator, Misc",
-      "scope": [
-        "keyword.control",
-        "constant.other.color",
-        "punctuation",
-        "meta.tag",
-        "punctuation.definition.tag",
-        "punctuation.separator.inheritance.php",
-        "punctuation.definition.tag.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
-        "keyword.other.template",
-        "keyword.other.substitution"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Tag",
-      "scope": [
-        "entity.name.tag",
-        "meta.tag.sgml",
-        "markup.deleted.git_gutter"
-      ],
-      "settings": {
-        "foreground": "#000000"
+        "fontStyle": "normal",
+        "foreground": "#d03550"
       }
     },
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function",
-        "meta.function-call",
-        "variable.function",
-        "support.function",
-        "keyword.other.special-method"
+        "entity.name.function"
       ],
       "settings": {
         "foreground": "#007777"
       }
     },
     {
-      "name": "Block Level Variables",
+      "name": "Number, Constant",
       "scope": [
-        "meta.block variable.other"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Other Variable, String Link",
-      "scope": [
-        "support.other.variable",
-        "string.other.link"
-      ],
-      "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
-      "scope": [
-        "constant.numeric",
-        "constant.language",
-        "support.constant",
-        "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "constant"
       ],
       "settings": {
         "foreground": "#d03550"
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "String",
       "scope": [
-        "string",
-        "constant.other.symbol",
-        "constant.other.key",
-        "entity.other.inherited-class",
-        "markup.heading",
-        "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "string"
       ],
       "settings": {
         "foreground": "#498000"
       }
     },
     {
-      "name": "Class, Support",
+      "name": "Class",
       "scope": [
-        "entity.name",
-        "support.type",
-        "support.class",
-        "support.other.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "entity.name"
       ],
       "settings": {
-        "foreground": "#000000"
-      }
-    },
-    {
-      "name": "Entity Types",
-      "scope": [
-        "support.type"
-      ],
-      "settings": {
-        "foreground": "#000000"
+        "foreground": "#007777"
       }
     }
   ]

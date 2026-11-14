@@ -47,7 +47,7 @@
         "comment"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "normal",
         "foreground": "#dfdf8e"
       }
     },
